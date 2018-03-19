@@ -28,11 +28,14 @@ img { border: 0; }
   position: relative;
   width: 100vw;
   height: 100vh;
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
 }
 .me {
-  max-width: 80%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  height: 480px;
+  max-height: 100vh;
+  justify-self: end;
+  align-self: end;
+}
+.info {
 }

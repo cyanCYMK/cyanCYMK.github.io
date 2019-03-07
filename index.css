@@ -25,17 +25,29 @@ img { border: 0; }
 
 /* my stuff */
 .main {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template: 1fr / 1fr 1fr;
+ position: relative;
+ width: 100vw;
+ height: 100vh;
+ display: grid;
+ grid-template: 1fr / 1fr 1fr;
+ --color-1: hsl(22, 61%, 93%);
+ --color-2: hsl(42, 42%, 80%);
+ background: repeating-linear-gradient( 45deg, var(--color-1), var(--color-1) 6px, var(--color-2) 6px, var(--color-2) 12px );
 }
+
 .me {
-  height: 480px;
-  max-height: 100vh;
-  justify-self: end;
-  align-self: end;
+ height: 480px;
+ max-height: 100vh;
+ justify-self: end;
+ align-self: end;
 }
+
 .info {
+ list-style: none;
+}
+
+.info a {
+ text-decoration: none;
+ color: hsl(30, 50%, 50%);
+ font-family: verdana, sans-serif;
 }

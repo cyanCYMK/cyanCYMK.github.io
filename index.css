@@ -48,7 +48,7 @@ img { border: 0; }
 
 .info a {
  text-decoration: none;
- color: hsl(30, 50%, 50%);
+ color: hsl(12, 26%, 41%);
  font-family: verdana, sans-serif;
  font-size: 2rem;
 }
@@ -61,4 +61,28 @@ img { border: 0; }
 
 .info a:active {
   color: hsl(20, 50%, 70%);
+}
+
+@media (max-width: 740px) {
+  .me {
+   width: 100%;
+   height: auto;
+  }
+ 
+ .main {
+  grid-template: 1fr / 1fr;
+ }
+}
+
+@media (max-width: 420px) {
+ .info {
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+ }
+ 
+ .info a {
+   writing-mode: vertical-rl;
+   text-orientation: upright;
+ }
 }

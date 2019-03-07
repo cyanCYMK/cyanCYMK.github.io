@@ -63,7 +63,7 @@ img { border: 0; }
   color: hsl(20, 50%, 70%);
 }
 
-@media (max-width: 740px) {
+@media (max-width: 855px) {
   .me {
    width: 100%;
    height: auto;

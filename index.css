@@ -82,7 +82,7 @@ img { border: 0; }
  }
  
  .info a {
-   writing-mode: vertical-rl;
+   writing-mode: vertical-lr;
    text-orientation: upright;
  }
 }
